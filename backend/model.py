@@ -69,7 +69,7 @@ def get_text_response(context, question):
             return "🤖 I'm not sure about the answer based on the given text."
         return result['answer']
     except Exception as e:
-        return f"❌ Error processing text: {str(e)}"}
+        return f"❌ Error processing text: {str(e)}"
 
 
 def get_model_response(image, question, context=None):
